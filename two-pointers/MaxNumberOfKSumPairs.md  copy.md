@@ -23,8 +23,8 @@ class Solution {
         int  left = 0; // look at first indexes
         int right = nums.length-1; //to reach at last index 
 
-        while(left < right){ // because pointer1=0 & pointer2 = 4 so which is 0<4, it will continue untill it stops reaching!
-            if(nums[left]+nums[right]==k){ // avoid add this, pointer1+pointer2==k because its not giving you an actual value of array, it will only give you actaul length of array and not indexes
+        while(left < right){ // continue while a valid pair can exist
+            if(nums[left] + nums[right] == k){ // compare values, not indexes
                 count++;
                 left++; 
                 right--;
