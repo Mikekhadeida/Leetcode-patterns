@@ -41,8 +41,9 @@ class Solution {
     }
 }
 
+
 // Time complexity: O(n logn) because you are shorted like a merge sorted 
-// Space complexity: O(n) because no data structere use! 
+// Space Complexity: O(1) because we only use pointers and count
 
 /* 
 example:
