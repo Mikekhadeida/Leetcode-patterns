@@ -38,8 +38,9 @@ class Solution {
     }
 }
 
-/*
-Time Complexity: O(n + m)
+
+## Complexity
+**Time Complexity:** O(n + m)
 - n = length of nums1
 - m = length of nums2
 - We loop through both arrays to add numbers to the HashSets.
@@ -47,9 +48,8 @@ Time Complexity: O(n + m)
 - HashSet add() and contains() take O(1) time on average.
 - Total time: O(n + m).
 
-Space Complexity: O(n + m)
+**Space Complexity:** O(n + m)
 - hashSet1 stores up to n unique numbers from nums1.
 - hashSet2 stores up to m unique numbers from nums2.
 - result1 and result2 store the differences.
 - Total extra space: O(n + m).
-*/
